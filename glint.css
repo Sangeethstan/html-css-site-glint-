@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 120vh;
+    background-image: url(glint1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstbutton{
+    border: solid gray;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+    width: 205px;
+    height: 47px;
+}
+#buttons{
+    margin-top: 53px;
+    margin-left: 155px;
+}
+.about{
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(71, 154, 41);
+}
+.line {
+    margin-top: -30px;
+    width: 445px;
+    height: 1px;
+    background-color: white;
+    margin-left: 400px;
+}
+
+.heading{
+    font-size: 83px;
+    color: white;
+}
+.content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.lines{
+    margin-top: -141px;
+    position: absolute;
+    width: 1px;
+    height: 200px;
+    background-color: white;
+    margin-left: 250px;
+}
+.icon
+{
+    font-size: 50px;
+}
+.services{
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    height: 190vh;
+    background-color:white
+}
+.newline{
+    margin-top: 20px;
+    width: 445px;
+    height: 1px;
+    background-color:rgba(128, 128, 128, 0.413);
+    margin-left: 400px;
+}
+/* .brand{
+    margin-left: 56px;
+    margin-top :-55px; ;
+} */
+ .works{
+    padding-top: 136px;
+    text-align: center;
+    width: 100%;
+    height: 120vh;
+    background-color:black
+ }
+ .newworks{
+    width: 100%;
+    height: 160vh;
+
+
+ }
+ .clients{
+    padding-top: 136px;
+    text-align: center;
+    width: 100%;
+    height: 120vh;
+    background-color:gray
+ }
+ .contact{
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(29, 29, 29, 0.68),rgb(40, 40, 40)),url(contact-bg.jpg.webp);
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 25vh;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    letter-spacing: -.02em; 
+}
+
+.contact_t2{
+    font-size: 55px;
+    padding-bottom: 10vh;
+}
+
+.contact_grid{
+    height: 90vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.col_left{
+    background-color: rgba(0, 0, 0, 0.406);
+    padding: 2vh;
+    margin-left: 15vh;
+}
+
+.contact_box {
+    background-color: transparent;
+    width: 85vh;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #383838; 
+    padding: 15px; 
+    box-sizing: border-box; 
+    margin-left: 5vh;
+}
+
+.left_1 {
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contact_box::placeholder {
+    color: #383838; 
+}
+
+.message_box {
+    background-color: transparent;
+    width: 85vh;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #383838; 
+    padding: 15px;
+    height: 30vh; 
+    resize: vertical; 
+    box-sizing: border-box; 
+    margin-left: 5vh;
+}
+
+.message_box::placeholder {
+    color: #383838; 
+}
+
+.submit{
+    background-color: #39B54A;
+    width: 85vh;
+    color: white;
+    margin-top: 5vh;
+    height: 7vh;
+    margin-left: 5vh;
+    padding-top: 11px;
+}
+
+fieldset {
+    border: none; 
+}
+
+.col_right{
+    background-color: black;
+    padding-left: 5vh;
+    color: #757579;
+}
+
+.row_rt{
+    padding-bottom: 5vh;
+    padding-left: 5vh;
+}
+
+.c-0{
+    color: white;
+    margin-left: 2vh;
+}
+
+.c-1{
+    margin-left: 1vh;
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 15vh;
+    color: #757579;
+    height: 80vh;
+    width: 100%
+}
+
+.footer_row1{
+    padding-top: 10vh;
+}
+
+.footer_row2{
+    padding-top: 3vh;
+}
+
+.footer_grid{
+    padding-left: 35vh;
+    padding-right: 35vh;
+}
